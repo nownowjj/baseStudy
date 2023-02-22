@@ -1,0 +1,15 @@
+1. 원격 저장소(github, yona, stash, ...)에서 원하는 소스의 브랜치를 선택하고 
+   복제 혹은 clone 버튼을 눌러 URL을 복사한다.
+
+
+2. 소스를 받을 경로로 이동해 <우클릭 - Git Bash Here> 을 클릭한다.
+
+
+3. 소스 내려받기를 하는 명령어를 입력한다.
+	-  $ git clone <복사한 URL>
+
+tip
+-특정 브랜치에 있는 소스를 받고 싶다면 -b <branch 이름>을 추가해준다.
+	-  $ git clone -b <branch 이름> <복사한 URL>
+
+-여기서 붙여넣기 하는 방법은 Ctrl + V가 아니라 Shift + Insert를 사용한다.
